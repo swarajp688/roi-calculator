@@ -6,7 +6,7 @@
 
 
 @import "./takeInput.scss";
-@import "./timeFrame.scss";
+
 
 .btn-yellow {
   background: #f8f8f8;
@@ -27,4 +27,8 @@
 .btn-color {
   background-color: #fed700;
   color: #000;
+}
+.timeframe-tier {
+  display: flex;
+  flex-direction: column;
 }

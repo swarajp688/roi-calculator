@@ -9,7 +9,7 @@ const TimeFrame = () => {
     
     
   return (
-    <div className="timeframe">
+    <div className="timeframe-tier">
         <h2>TimeFrame</h2>
         <div>
         <button className={`btn-yellow ${timeFrame == 1 ? 'btn-color' : ''}`} value={1} onClick={handleClick}>1 Day</button>

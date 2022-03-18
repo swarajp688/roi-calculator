@@ -6,8 +6,9 @@ const Tier = () => {
     setTier(e.target.value);
   };
   return (
-    <div>
+    <div className="timeframe-tier">
       <h5>Select Tier</h5>
+      <div>
       <button
         className={`btn-yellow ${tier == 1 ? "btn-color" : ""} `}
         value={1}
@@ -44,6 +45,7 @@ const Tier = () => {
       >
         Tier 5
       </button>
+      </div>
     </div>
   );
 };
