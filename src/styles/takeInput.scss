@@ -18,6 +18,13 @@
     box-sizing: border-box;
     border-radius: 10px;
     font-family: "Poppins";
+    text-align: right;
+    padding: 30px;
+    outline: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
   }
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
@@ -25,50 +32,52 @@
     margin: 0;
   }
 }
+.switch {
+  margin: 6px;
+  padding: 5px;
+
+}
 .btn-group {
   display: flex;
   padding: 5px;
 }
 .btn-1000 {
-    width: 82px;
-    height: 36px;
-    border-radius: 10px;
-  background: #F8F8F8;
-    border: none;
+  width: 82px;
+  height: 36px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  border: none;
   margin: 2px;
   color: #000000;
   cursor: pointer;
   font-weight: 600;
-
-
 }
 .btn-100 {
-    width: 82px;
-    height: 36px;
-    border-radius: 10px;
-    background: #F8F8F8;
-    border: none;
-    margin: 2px;
-    color: #000000;
-    cursor: pointer;
-    font-weight: 600;
+  width: 82px;
+  height: 36px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  border: none;
+  margin: 2px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 600;
 }
 .usebalance-btn {
-    width: 106px;
-    height: 36px;
-    border: none;
-    background: #F8F8F8;
-    border-radius: 10px;
-    color: #000000;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 150%;
-    text-align: center;
-    margin: 2px;
-    cursor: pointer;
-  }
+  width: 106px;
+  height: 36px;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  margin: 2px;
+  cursor: pointer;
+}
 
 .btn {
   background: #fed700;
 }
-

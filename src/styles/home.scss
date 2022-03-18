@@ -6,22 +6,31 @@
 
 
 @import "./takeInput.scss";
-
-
+@import "./roiResult.scss";
+@import "./submitDetails.scss";
+@import "./showDetails.scss";
+.apy-div {
+ display: flex; 
+ justify-content: space-between;
+ div {
+   font-size: large;
+ }
+}
 .btn-yellow {
   background: #f8f8f8;
-  border: 1px solid #fed700;
+  border: none;
   box-sizing: border-box;
   box-shadow: 0px 2px 10px rgba(87, 16, 112, 0.08);
   border-radius: 30px;
   cursor: pointer;
-  height: 30px;
+  height: 40px;
   width: 80px;
   line-height: 1.1rem;
   letter-spacing: 1px;
   font-weight: 600;
   color: #A2A2A2;
   margin: 3px;
+  
 }
 
 .btn-color {
@@ -31,4 +40,15 @@
 .timeframe-tier {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    button {
+      margin-right: 40px;
+    }
+  }
 }
+
